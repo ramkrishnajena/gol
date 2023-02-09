@@ -1,0 +1,139 @@
+.package__head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.package__head h3 {
+  width: 841.23px;
+  height: 44px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #3a3a3a;
+}
+.package__head p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #5a5a5a;
+}
+.package__options {
+  width: 1226px;
+  height: 78px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin: 0 70px;
+}
+.package__options--opt {
+  width: 249px;
+  height: 78px;
+  left: calc(50% - 249px / 2 - 488.5px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #a2a8ab;
+  border-radius: 0px 5px 5px 0px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #3282ad;
+}
+.option.selected {
+  background: #3282ad;
+  color: #fff;
+  border-radius: 5px 0px 0px 5px;
+}
+/* package card */
+
+.package__card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 26px;
+  margin: 80px 70px;
+  filter: drop-shadow(0px 4px 25px rgba(50, 130, 173, 0.15));
+  border-radius: 8px;
+}
+.package__card--one {
+  width: 390px;
+  height: 516px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  isolation: isolate;
+}
+
+.package__card img {
+  width: 390px;
+  height: 352px;
+}
+.package__card--title {
+  width: 100%;
+  height: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 16px 0 0;
+}
+.package__card--title h4 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+.package__card--title p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #000000;
+}
+.package__card--title .location {
+  width: 15px;
+  height: 15px;
+  /* background: #000000; */
+  margin: 0 5px 0 10.51px;
+}
+.package__card--title .star {
+  position: relative;
+  width: 17px;
+  height: 16px;
+  margin: 0 5px 0 213px;
+}
+.package__button {
+  width: 163px;
+  height: 35px;
+  background: #3282ad;
+  border-radius: 4px;
+  display: block;
+  margin: 0 auto;
+}
+.package__card--one__desc {
+  width: 266px;
+  height: 38px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 19px;
+  color: #5a5a5a;
+  margin-left: 16px;
+}

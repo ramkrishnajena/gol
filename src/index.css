@@ -1,0 +1,556 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Montserrat:wght@300&family=Open+Sans:wght@300;400&display=swap");
+* {
+  text-decoration: none;
+  border: none;
+}
+body {
+  height: 100%;
+  background: linear-gradient(
+    180deg,
+    #e5f8fe 14.25%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+/* navbar css start */
+.navbar--container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 40px 0 0 70px;
+}
+.navbar__logo {
+  width: 99.35px;
+  height: 56px;
+}
+.navbar__logo img {
+  width: 99.35px;
+  height: 56px;
+}
+.navbar__menu {
+  margin-right: 100px;
+}
+
+.navbar__menu ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+.navbar__menu ul li {
+  text-decoration: none;
+  list-style: none;
+}
+.navbar__menu ul li a {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #3a3a3a;
+}
+.navbar__menu ul li span {
+  margin-left: 8px;
+}
+.navbar__button {
+  width: 195px;
+  height: 54px;
+  display: flex;
+  align-items: center;
+  margin: 0 0px 0 50px;
+}
+.login__btn {
+  width: 58px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+}
+.login__btn a {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #3282ad;
+}
+.signup__btn {
+  width: 123px;
+  height: 54px;
+  background: rgba(5, 100, 153, 0.8);
+  border-radius: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.signup__btn a {
+  text-decoration: none;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+/* navbar css end */
+
+/* page hero css start */
+.hero {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 133px 0 0 0;
+}
+.page--hero__heading {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 0 70px;
+}
+.visit__btn {
+  width: 197px;
+  height: 64px;
+  background: #d2f4ff;
+  border-radius: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.visit__btn p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 140%;
+}
+.hero__heading {
+  width: 468px;
+  height: 243px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 140%;
+  color: #3a3a3a;
+  margin: 48px 0 0 0;
+}
+.hero__heading span {
+  color: #3282ad;
+}
+.discover__btn {
+  width: 174px;
+  height: 64px;
+  background: #ffffff;
+  border: 2px solid #3282ad;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 64px 0 0 0;
+}
+.discover__btn a {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 32px;
+  color: #3282ad;
+}
+.hero--map {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 800px;
+  height: 800px;
+  margin: -140px 0 0 0;
+  /* overflow: hidden; */
+}
+.child {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.hero--map .map {
+  height: 874px;
+  left: 50px;
+  top: -102px;
+}
+
+.hero--map .bg {
+  width: 449.99px;
+  height: 412.49px;
+  left: 306px;
+  top: 152px;
+}
+.hero--map .people {
+  width: 421.17px;
+  height: 425.51px;
+  left: 287px;
+  top: 106px;
+  border-radius: 50%;
+}
+
+.plane {
+  width: 63.62px;
+  height: 68.17px;
+  background: url(./assets/plane.svg) no-repeat;
+  position: relative;
+  left: 496.65px;
+  top: -43.199px;
+}
+.container--one {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 149.32px;
+  height: 138.37px;
+  right: 384.68px;
+  top: 489.31px;
+  background: #ffffff;
+  box-shadow: 0px 2px 4px rgba(40, 41, 61, 0.04),
+    0px 8px 16px rgba(96, 97, 112, 0.16);
+  border-radius: 5px;
+}
+.image__container {
+  width: 141.13px;
+  height: 81.79px;
+  filter: drop-shadow(0px 0px 1px rgba(40, 41, 61, 0.04))
+    drop-shadow(0px 2px 4px rgba(96, 97, 112, 0.16));
+  border-radius: 5px;
+}
+.container__title {
+  text-align: center;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 140%;
+  color: #333333;
+  margin-top: 6.8px;
+}
+.location--one {
+  width: 91px;
+  height: 14px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 140%;
+  color: #8f8f8f;
+  letter-spacing: 0.01em;
+  margin: 6px 0 10.75px 9.68px;
+}
+.location img {
+  margin-right: 5.76px;
+}
+.container--two {
+  position: absolute;
+  width: 88.27px;
+  height: 81.79px;
+  left: 1208px;
+  top: 443.65px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #ffffff;
+  gap: 2px;
+}
+.image__container--two {
+  width: 83.43px;
+  height: 48.35px;
+  filter: drop-shadow(0px 0px 1px rgba(40, 41, 61, 0.04))
+    drop-shadow(0px 2px 4px rgba(96, 97, 112, 0.16));
+  border-radius: 5px;
+}
+.container__title--two {
+  width: 54px;
+  height: 11px;
+  text-align: left;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 8px;
+  line-height: 140%;
+  color: #333333;
+  margin-top: 2.96px;
+}
+.location--two {
+  width: 63px;
+  height: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.location--two img {
+  width: 7.08px;
+  height: 8.33px;
+}
+.location--two p {
+  width: 49px;
+  height: 8px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 6px;
+  line-height: 140%;
+  letter-spacing: 0.01em;
+}
+.plane-name {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 15px;
+  gap: 20px;
+  width: 168px;
+  height: 40px;
+  background: #ffffff;
+  box-shadow: 0px 2px 4px rgba(40, 41, 61, 0.04),
+    0px 8px 16px rgba(96, 97, 112, 0.16);
+  border-radius: 50px;
+  z-index: 1;
+  position: relative;
+  right: 95px;
+  top: 80px;
+}
+.plane-name img {
+  width: 15.83px;
+  height: 16.67px;
+  rotate: 64deg;
+}
+.plane-name p {
+  width: 84px;
+  height: 20px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  letter-spacing: 0.0125em;
+  color: #636363;
+}
+.train {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  right: 79.27px;
+  top: 371.17px;
+
+  background: #ffffff;
+  box-shadow: 0px 2px 4px rgba(40, 41, 61, 0.04),
+    0px 8px 16px rgba(96, 97, 112, 0.16);
+  border-radius: 50px;
+}
+.train img {
+  width: 34px;
+  height: 34px;
+}
+/* page hero css end */
+
+/* flight search input box */
+
+.flight--search {
+  width: 1226px;
+  height: 228px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-shadow: 0px 4px 25px rgba(141, 198, 211, 0.15);
+  border-radius: 16px;
+  margin: 16px 70px 88px 70px;
+}
+.flight--search__container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.flight--serach__heading {
+  display: flex;
+  align-items: flex-start;
+  width: 1178px;
+  height: 27px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-size: 20px;
+  line-height: 27px;
+  color: #1c1b1f;
+  font-weight: 600;
+  padding: 0 0 32px 60px;
+}
+.flight--search__input {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+.lable {
+  color: #1c1b1f;
+  font-weight: 600;
+}
+input {
+  width: 50%;
+  height: 100%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: black;
+  padding: 0;
+  text-align: center;
+}
+input:focus {
+  outline: none;
+}
+.input__box {
+  width: 300px;
+  height: 56px;
+  background: #ffffff;
+  border: 1px solid #79747e;
+  border-radius: 4px;
+}
+.trip__box.trip {
+  width: 140px;
+  height: 56px;
+  background: #ffffff;
+  border: 1px solid #79747e;
+  border-radius: 4px;
+}
+#type {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #1c1b1f;
+}
+#type:focus {
+  outline: none;
+}
+.input--lables {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #112211;
+  width: 1120px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 8px;
+}
+.ft__lable {
+  width: fit-content;
+  height: fit-content;
+  background: #fff;
+  position: relative;
+  left: 15px;
+}
+.trip__lable {
+  width: fit-content;
+  height: fit-content;
+  background: #fff;
+  position: relative;
+  left: 8px;
+}
+.trip select {
+  padding: 0;
+}
+#type {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #112211;
+}
+.trip select option {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #112211;
+}
+label.travel__lable {
+  width: fit-content;
+  height: fit-content;
+  background: #fff;
+  position: relative;
+  right: 124px;
+}
+.class__lable {
+  width: fit-content;
+  height: fit-content;
+  background: #fff;
+  position: relative;
+  right: 175px;
+}
+
+.destination {
+  /* border: 1px solid black !important; */
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.destination img {
+  width: 72px;
+  height: 19.5px;
+  padding: 0 18.25px 0 0;
+}
+.show--btn {
+  width: 1174px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 24px;
+  margin: 0 0 16px 0;
+}
+.add__code {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #112211;
+}
+.show__flight button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  width: 144px;
+  height: 48px;
+  background: #3282ad;
+  border-radius: 4px;
+}
+.show__flight p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+}
+.show__flight img {
+  width: 14px;
+  height: 14px;
+}
+button {
+  background: none;
+}
